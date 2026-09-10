@@ -1,0 +1,12 @@
+.body-wrapper {
+    margin: 0;
+    padding: 0;
+    background-color: #1c1917; /* Stone 900 */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fafaf9; /* Stone 50 */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
