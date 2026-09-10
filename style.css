@@ -132,3 +132,17 @@
     line-height: 1.5;
     font-size: 1.1rem;
 }
+.footer-container {
+    background-color: #0c0a09;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-text {
+    color: #78716c;
+    margin: 0;
+    font-size: 0.9rem;
+}
