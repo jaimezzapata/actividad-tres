@@ -70,11 +70,15 @@
 }
 
 .hero-section {
-    flex: 1;
+   flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    /* Agrega estas tres líneas: */
+    background-image: url('./images/hero.jpg'); 
+    background-size: cover;      
+    background-position: center;
 }
 
 .hero-image-box {
