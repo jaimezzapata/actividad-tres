@@ -56,3 +56,23 @@
     border-radius: 30px;
     font-weight: bold;
 }
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 50px;
+    gap: 50px;
+    box-sizing: border-box;
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hero-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
