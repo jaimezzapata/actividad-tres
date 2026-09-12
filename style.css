@@ -203,3 +203,26 @@ a {
     color: #78716c;
     font-size: 14px;
 }
+
+@media (max-width: 900px) {
+
+    .navigation-list {
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    .main-section {
+        padding: 70px 5%;
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+    }
+
+    .right-column {
+        justify-content: flex-start;
+    }
+
+}
