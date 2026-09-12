@@ -226,3 +226,45 @@ a {
     }
 
 }
+
+
+@media (max-width: 600px) {
+
+    .header {
+        padding: 0 5%;
+    }
+
+    .navigation-list {
+        display: none;
+    }
+
+    .main-section {
+        padding: 50px 5%;
+    }
+
+    .main-image {
+        height: 220px;
+    }
+
+    .hero-title {
+        font-size: 38px;
+    }
+
+    .service-card {
+        align-items: flex-start;
+    }
+
+    .service-image {
+        width: 110px;
+        height: 90px;
+    }
+
+    .service-title {
+        font-size: 18px;
+    }
+
+    .service-description {
+        font-size: 14px;
+    }
+
+}
